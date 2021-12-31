@@ -1,7 +1,10 @@
 node{
-    parameters {
-        string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
-    }
+    properties(
+    [
+        parameters(
+            [string(defaultValue: 'Hello', name: 'Geeting')]
+     ]
+    )  
  
     stage('Hello') {
       
