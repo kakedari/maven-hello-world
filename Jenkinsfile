@@ -2,7 +2,7 @@ node{
     properties(
         [
             parameters(
-                [string(defaultValue: 'Hello', name: 'Geeting')]
+                [string(defaultValue: 'Hello', name: 'Greeting')]
             )
         ]
     )  
