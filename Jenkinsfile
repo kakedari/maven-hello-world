@@ -14,7 +14,7 @@ node{
     }
     stage('Example') {
            
-                echo "${parameters.Greeting} World!"
+                echo "${params.Greeting} World!"
             
         }
   
