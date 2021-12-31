@@ -1,9 +1,10 @@
 node{
     properties(
-    [
-        parameters(
-            [string(defaultValue: 'Hello', name: 'Geeting')]
-     ]
+        [
+            parameters(
+                [string(defaultValue: 'Hello', name: 'Geeting')]
+            )
+        ]
     )  
  
     stage('Hello') {
